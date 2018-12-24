@@ -1,12 +1,12 @@
 # Make all import
-from cse231_random import randint
+from random import randint
 from edible import DogFood
 from edible import CatFood
 from edible import Water
 
 ###########################################################
 #
-# Computer Project #11  Pets
+# Computer Project Pet-Game
 #
 # Define all the functions of Pet class
 #   def __init__():
