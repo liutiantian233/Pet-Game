@@ -120,14 +120,14 @@ After complete the **Pet class**, design two subclasses of Pet:
 
 > **self._drinkable_items**_: it will be a list that contains elements from the **'cat_drinkable_items'**.
 
-- Class **Dog**: this class inherits the **Pet** class. The **init** function of this class will inherit most of the features from the Pet class (using Pet’s **__init__** method). Besides that, the cat class will update two attributes (all within **__init__**):
-> **self._edible_items**_: it will be a list that contains elements from the **'dog_edible_items'** list (which is at the beginning of the template code.)
+- Class **Dog**: this class inherits the **Pet** class. The **init** function of this class will inherit most of the features from the Pet class (using Pet’s **__ init __** method). Besides that, the cat class will update two attributes (all within **__ init __**):
+> **self._ edible_items**: it will be a list that contains elements from the **'dog_edible_items'** list (which is at the beginning of the template code.)
 
-> **self._drinkable_items**_: it will be a list that contains elements from the **'dog_drinkable_items'**.
+> **self._ drinkable_items**: it will be a list that contains elements from the **'dog_drinkable_items'**.
 
 Both of the above two class definitions should be less than 6 lines of code.
 
-### Design your main function:
+### Design main function:
 
 Prompt your user to enter the species, name, gender, fur color of the pet, separated by spaces. If the user hits the Enter key, the program will assume that your user wants to use default values (**species='dog',gender='male',color='white'**). A valid pet has species that is **'dog'** or **'cat'** and gender that is **'male'** or **'female'**. Otherwise, if the user inputs invalid values (say, **'pig fluffy male white'**), the program will repeat this prompt until the user input is valid. An example is given below:
 
