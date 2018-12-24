@@ -108,7 +108,9 @@ After initialize the attributes mentioned above, there is a call to the **_reply
 
 **def show_status(self)**:
 - this method will display the hunger, thirst, smell, loneliness, and energy attributes of your pet as a table. Attribute values will be sorted in alphabetical order. An example is given below:
+
 ![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet3.png)
+
 The number of ‘#’ is proportional to the attribute value, and it will occupy 20 spaces in total. A partially formatted string is in the provided file.
 
 After complete the **Pet class**, design two subclasses of Pet:
