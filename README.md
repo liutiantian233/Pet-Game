@@ -115,10 +115,12 @@ After complete the **Pet class**, design two subclasses of Pet:
 
 - Class **Cat**: this class inherits the **Pet** class. The **init** method of this class will inherit most of the features from the Pet class (by calling Pet’s **__init__** method which is also a good place to set the species to **'cat'**). Besides that, the cat class will update two attributes (all within **__init__**):
 > **self._edible_items**_: it will be a list that contains elements from the **'cat_edible_items'** list (which is at the beginning of the template code.)
+
 > **self._drinkable_items**_: it will be a list that contains elements from the **'cat_drinkable_items'**.
 
 - Class **Dog**: this class inherits the **Pet** class. The **init** function of this class will inherit most of the features from the Pet class (using Pet’s **__init__** method). Besides that, the cat class will update two attributes (all within **__init__**):
 > **self._edible_items**_: it will be a list that contains elements from the **'dog_edible_items'** list (which is at the beginning of the template code.)
+
 > **self._drinkable_items**_: it will be a list that contains elements from the **'dog_drinkable_items'**.
 
 Both of the above two class definitions should be less than 6 lines of code.
