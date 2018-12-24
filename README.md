@@ -128,9 +128,11 @@ Both of the above two class definitions should be less than 6 lines of code.
 ### Design your main function:
 
 Prompt your user to enter the species, name, gender, fur color of the pet, separated by spaces. If the user hits the Enter key, the program will assume that your user wants to use default values (**species='dog',gender='male',color='white'**). A valid pet has species that is **'dog'** or **'cat'** and gender that is **'male'** or **'female'**. Otherwise, if the user inputs invalid values (say, **'pig fluffy male white'**), the program will repeat this prompt until the user input is valid. An example is given below:
+
 ![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet1.png)
 
 Once the pet input is valid, your program will create an instance of the Dog (or Cat) class, and repeatedly prompt you to input a valid command to interact with your Dog (or Cat) instance, until you enter a ‘q’. You have six commands: [feed] or [drink] or [shower] or [sleep] or [play] or [status]. The first five commands are five actions you can take with your pet, and the [status] command will show a table of your pet’s health status. A running example of a complete program is shown below.
+
 ![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet2.png)
 
 ---------
