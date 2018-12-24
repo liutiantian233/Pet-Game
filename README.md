@@ -34,6 +34,8 @@ These attributes are measured in the range from 0 to 10. For the ‘energy’ at
 **Learning Objectives**
 - Class
 
+-------------------
+
 The goal of this game is to take care of your pet by keeping your pet in a good status (i.e., lower hunger/thirst/loneliness/smell level, and higher energy level). You can take care of your pet by taking each of the following actions:
 - Let your pet get some sleep
 - Feed your pet some food
