@@ -77,8 +77,18 @@ To fill in appropriate values for initialization:
 
 After initialize the attributes mentioned above, there is a call to the **_reply_to_master**_ method.
 
-**def get_hunger_level(self)**: simply return the value of **self._hunger**_.
+**def get_hunger_level(self)**: simply return the value of **self._hunger**_
 
 **def get_thirst_level(self)**: similar to previous.
 
 **def get_energy_level(self)**: similar to previous.
+
+**def drink(self, liquid)**: this method represents the action of ‘feeding water’.
+- this method takes an input parameter called **liquid**, which is an instance that belongs to a certain class type. This class type should be an element in the **self._drinkable_items**_ list. (For example, if liquid = 1 (or any other integer), then **int** must be an element in the **self._drinkable_items**_ list.) Otherwise, your program will output an error message. (use isinstance() function).
+- Call the **_time_pass_by**_ method with the default time (which is complete and does not need modification).
+- If the liquid is valid, you will decrease the **thirsty** value of your pet, based on the quantity of this liquid. You must make sure that your pet’s thirst level will not go below zero. For example, if the **_thirst**_ value is 3, and the quantity of the liquid is 2, then after you call the drink function, **_thirst**_ will be 1. If the quantity of the liquid is 4, then **_thirst**_ will become 0, not -1. If all the liquid is not drunk, print **"Too much drink to finish. I will leave some for you."**
+- A pet will not drink if their thirst is less than 2. If they will not drink, print a message, e.g. **"Your pet is satisfied, no desire for sustenance now."** if they are not hungry.
+- If the liquid is invalid, print **"Not drinkable"**
+- After you update the **_thirst**_ value, call the **_reply_to_master()**_ method.
+
+**def feed(self, food)**: the logic of this method is very similar to drink. The difference is that in this method, you will update the value of **_hunger**_. You will also call the **_reply_to_master()**_ method with a different input argument than used with drink.
