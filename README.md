@@ -74,3 +74,9 @@ To fill in appropriate values for initialization:
 - The default values for **name, species, gender,** and **color** are **'Fluffy', 'Dog', 'Male',** and **'White'** respectively. Force the attribute values to be capitalized (use the **capitalize()** string method).
 - The initial value for **hunger, thirst, smell,** and **loneliness** are a random integer number in the range of [0, 5], while the initial value for **energy** is a random integer number in the range of [5, 10].
 - The initial value for **_edible_items**_ and **_drinkable_items**_ is an empty list. (We will append some items to these lists later on, so that **_edible_items**_ and **_drinkable_items**_ will be a list of different class types, and each class type is provided in the **edible.py** file. An example of a list of class types is given here: **a_list = [str, int, float]**)
+
+After initialize the attributes mentioned above, there is a call to the **_reply_to_master**_ method.
+
+**def get_hunger_level(self)**: simply return the value of **self._hunger**_.
+**def get_thirst_level(self)**: similar to previous.
+**def get_energy_level(self)**: similar to previous.
