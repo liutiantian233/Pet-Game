@@ -12,6 +12,8 @@ If you want to develop Android programs you can use Qpython, which is a new supp
 
 Perhaps there are still undiscovered problems and errors in the program. If you are lucky enough to be discovered by you, please give me feedback and correct the error. I am very happy to accept.
 
+-------------------
+
 A pet has the following basic attributes:
 - Species (we assume two species: dog and cat)
 - Name
@@ -25,16 +27,14 @@ As well as some other attributes that are related to physical or mental health s
 - Loneliness
 - Smell
 
--------------------
-
 These attributes are measured in the range from 0 to 10. For the ‘energy’ attribute, the ideal value is 10. For the other attributes (‘hunger’, ‘thirst’, ‘loneliness’, and ‘smell’), the ideal value is 0. When a pet object is created, his or her initial status is randomized within an acceptable range. For example, a newly created pet may have a hunger/thirst/loneliness/smell level in the range of (0, 5), and have an energy level in the range of (5, 10).
 
 **Therefore, in your pet class, you will have attributes related to each feature that we mentioned. Make them as private attributes (i.e., the attribute name should start with a single underscore)**
 
+-------------------
+
 **Learning Objectives**
 - Class
-
--------------------
 
 The goal of this game is to take care of your pet by keeping your pet in a good status (i.e., lower hunger/thirst/loneliness/smell level, and higher energy level). You can take care of your pet by taking each of the following actions:
 - Let your pet get some sleep
