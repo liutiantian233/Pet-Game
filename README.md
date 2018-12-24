@@ -57,6 +57,7 @@ The game begins by prompting you to entering the species, name, gender, and fur 
 -------------------
 
 **Project Specifications**
+
 Design a class called **Pet** which initialize the following attributes in its __init__() function:
 - self._name               # string
 - self._species            # string
