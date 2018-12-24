@@ -138,6 +138,10 @@ Once the pet input is valid, your program will create an instance of the Dog (or
 ![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet2.png)
 
 ---------
+## Views and understanding of this project
+
+This is based on a simple model of the pet's game architecture. The overall program is not complicated, but I use a class approach to make the program more readable and organized.
+
 **TianTian Created on the eve of Christmas in 2018**
 
 ## Feedback and suggestions
