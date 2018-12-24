@@ -92,7 +92,8 @@ After initialize the attributes mentioned above, there is a call to the **_reply
 - If the liquid is invalid, print **"Not drinkable"**
 - After you update the **_thirst**_ value, call the **_reply_to_master()**_ method.
 
-**def feed(self, food)**: the logic of this method is very similar to drink. The difference is that in this method, you will update the value of **_hunger**_. You will also call the **_reply_to_master()**_ method with a different input argument than used with drink.
+**def feed(self, food)**:
+- the logic of this method is very similar to drink. The difference is that in this method, you will update the value of **_hunger**_. You will also call the **_reply_to_master()**_ method with a different input argument than used with drink.
 
 **def shower(self)**:
 - call the **_time_pass_by()**_ method. The shower takes a time=4.
