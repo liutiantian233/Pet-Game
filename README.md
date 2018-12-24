@@ -94,7 +94,7 @@ After initialize the attributes mentioned above, there is a call to the **_reply
 
 **def feed(self, food)**: the logic of this method is very similar to drink. The difference is that in this method, you will update the value of **_hunger**_. You will also call the **_reply_to_master()**_ method with a different input argument than used with drink.
 
-**def shower(self)**: To shower
+**def shower(self)**:
 - call the **_time_pass_by()**_ method. The shower takes a time=4.
 - this method changes two attributes of your pet: the **_smell**_ and the **_loneliness**_ The smell level will always drop to zero. The loneliness level of your pet will be decreased depending on how long the shower takes. For example, if the time = 2 and the **loneliness** level was 3, then after the shower the loneliness level will drop to 1. Please note that the loneliness level cannot go below zero. Therefore, if time = 4 and loneliness level was 3, then it will drop to 0, instead of -1.
 - After those two attributes are updated, call the **reply_to_master()** method and then the **update_status()** method.
