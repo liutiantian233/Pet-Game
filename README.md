@@ -1,7 +1,7 @@
 # Pet-Game
 **Use The Class Build Pet Development Game**
 
-In this project, you will write a Python program to **implement a virtual pet**. You can decide the species, name, and gender of your pet. You can also interact with your pet by feeding your pet, playing with your pet, bathing your pet, etc. You will design a user-defined Class called ‘Pet’ to achieve that.
+In this project, will write a Python program to **implement a virtual pet**. You can decide the species, name, and gender of your pet. You can also interact with your pet by feeding your pet, playing with your pet, bathing your pet, etc. You will design a user-defined Class called ‘Pet’ to achieve that.
 
 I think a lot of people have played this kind of game like cultivation. It may be a web version, a game console or even a mobile version. So this is my goal, just the initial implementation, without too much optimization and modification.
 
