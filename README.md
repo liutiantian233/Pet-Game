@@ -93,3 +93,49 @@ After initialize the attributes mentioned above, there is a call to the **_reply
 - After you update the **_thirst**_ value, call the **_reply_to_master()**_ method.
 
 **def feed(self, food)**: the logic of this method is very similar to drink. The difference is that in this method, you will update the value of **_hunger**_. You will also call the **_reply_to_master()**_ method with a different input argument than used with drink.
+
+**def shower(self)**: To shower
+- call the **_time_pass_by()**_ method. The shower takes a time=4.
+- this method changes two attributes of your pet: the **_smell**_ and the **_loneliness**_ The smell level will always drop to zero. The loneliness level of your pet will be decreased depending on how long the shower takes. For example, if the time = 2 and the **loneliness** level was 3, then after the shower the loneliness level will drop to 1. Please note that the loneliness level cannot go below zero. Therefore, if time = 4 and loneliness level was 3, then it will drop to 0, instead of -1.
+- After those two attributes are updated, call the **reply_to_master()** method and then the **update_status()** method.
+
+**def sleep(self)**:
+- Similar to the **shower** method, but sleeping takes a time=7, and the attribute modified by this method is **self._energy**_ which will increase. Please note that the energy level will not exceed MAX (10). Therefore, if time = 7 and the loneliness level was 4, then loneliness will rise to 10, instead of 11.
+
+**def play_with(self)**:
+- Similar to the **shower** method, but **play_with** takes a time=4, and this method changes three attributes of your pet: **self._loneliness, self._smell,**_ and **self._energy**_. The loneliness and energy level will decrease, and the smell level will increase, depending the time you have spent playing with your pet. Please note that all the attribute values will not exceed the range of MIN (0) and MAX (10).
+
+**defshow_status(self)**:
+- this method will display the hunger, thirst, smell, loneliness, and energy attributes of your pet as a table. Attribute values will be sorted in alphabetical order. An example is given below:
+![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet1.png)
+The number of ‘#’ is proportional to the attribute value, and it will occupy 20 spaces in total. A partially formatted string is in the provided file.
+
+After complete the Pet class, design two subclasses of Pet:
+- Class **Cat**: this class inherits the **Pet** class. The **init** method of this class will inherit most of the features from the Pet class (by calling Pet’s **__init__** method which is also a good place to set the species to **'cat'**). Besides that, the cat class will update two attributes (all within **__init__**):
+> self._edible_items: it will be a list that contains elements from the 'cat_edible_items' list (which is at the beginning of the template code.)
+> self._drinkable_items: it will be a list that contains elements from the
+'cat_drinkable_items'.
+
+- Class Dog: this class inherits the Pet class. The init function of this class will inherit most of the features from the Pet class (using Pet’s __init__ method). Besides that, the cat class will update two attributes (all within __init__):
+> self._edible_items: it will be a list that contains elements from the 'dog_edible_items' list (which is at the beginning of the template code.)
+> self._drinkable_items: it will be a list that contains elements from the
+'dog_drinkable_items'.
+
+Both of the above two class definitions should be less than 6 lines of code.
+
+### Design your main function:
+
+Prompt your user to enter the species, name, gender, fur color of the pet, separated by spaces. If the user hits the Enter key, the program will assume that your user wants to use default values (species='dog',gender='male',color='white'). A valid pet has species that is 'dog' or 'cat' and gender that is 'male' or 'female'. Otherwise, if the user inputs invalid values (say, 'pig fluffy male white'), the program will repeat this prompt until the user input is valid. An example is given below:
+![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet1.png)
+
+Once the pet input is valid, your program will create an instance of the Dog (or Cat) class, and repeatedly prompt you to input a valid command to interact with your Dog (or Cat) instance, until you enter a ‘q’. You have six commands: [feed] or [drink] or [shower] or [sleep] or [play] or [status]. The first five commands are five actions you can take with your pet, and the [status] command will show a table of your pet’s health status. A running example of a complete program is shown below.
+![image](https://github.com/liutiantian233/Pet-Game/blob/master/Pet2.png)
+
+---------
+**TianTian Created on the eve of Christmas in 2018**
+
+## Feedback and suggestions
+- E-mail：<liutia20@msu.edu>
+
+---------
+Thanks for reading this help document
