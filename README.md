@@ -78,5 +78,7 @@ To fill in appropriate values for initialization:
 After initialize the attributes mentioned above, there is a call to the **_reply_to_master**_ method.
 
 **def get_hunger_level(self)**: simply return the value of **self._hunger**_.
+
 **def get_thirst_level(self)**: similar to previous.
+
 **def get_energy_level(self)**: similar to previous.
