@@ -278,8 +278,8 @@ No return just print
         faces['hunger'] = "(｡>﹏<｡)"
         faces['thirst'] = "(｡>﹏<｡)"
         faces['energy'] = "(～﹃～)~zZ"
-        faces['loneliness'] = "(๑o̴̶̷̥᷅﹏o̴̶̷̥᷅๑)"
-        faces['smell'] = "(๑o̴̶̷̥᷅﹏o̴̶̷̥᷅๑)"
+        faces['loneliness'] = "(〃∀〃)"
+        faces['smell'] = "(⁰▿⁰)"
 
         talks['default'] = 'I feel good.'
         talks['hunger'] = 'I am so hungry ~'
