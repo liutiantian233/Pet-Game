@@ -59,17 +59,17 @@ The game begins by prompting you to entering the species, name, gender, and fur 
 **Project Specifications**
 
 Design a class called **Pet** which initialize the following attributes in its __ init__() function:
-- self._name               # string
-- self._species            # string
-- self._gender             # string
-- self._color              # string
-- self._hunger             # float
-- self._thirst             # float
-- self._smell              # float
-- self._loneliness         # float
-- self._energy             # float
-- self._edible_items       # list
-- self._drinkable_items    # list
+- self._ name               # string
+- self._ species            # string
+- self._ gender             # string
+- self._ color              # string
+- self._ hunger             # float
+- self._ thirst             # float
+- self._ smell              # float
+- self._ loneliness         # float
+- self._ energy             # float
+- self._ edible_items       # list
+- self._ drinkable_items    # list
 
 To fill in appropriate values for initialization:
 - The default values for **name, species, gender,** and **color** are **'Fluffy', 'Dog', 'Male',** and **'White'** respectively. Force the attribute values to be capitalized (use the **capitalize()** string method).
