@@ -54,3 +54,6 @@ After you take an action, your pet will give you feedback about the specific act
 
 The game begins by prompting you to entering the species, name, gender, and fur color of your pet, each feature separated by a space. Once those inputs are validated, a pet object will be created. Then the program will prompt you to enter a command. Your command will either lead to an action taken or lead to a table that shows you the health status of your pet. The program will repeatedly prompt you to input a command, until you enter ‘q’ and then you will quit this game.
 
+-------------------
+
+**Project Specifications**
