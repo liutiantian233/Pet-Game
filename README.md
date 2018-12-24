@@ -57,3 +57,20 @@ The game begins by prompting you to entering the species, name, gender, and fur 
 -------------------
 
 **Project Specifications**
+Design a class called **Pet** which initialize the following attributes in its __init__() function:
+- self._name               # string
+- self._species            # string
+- self._gender             # string
+- self._color              # string
+- self._hunger             # float
+- self._thirst             # float
+- self._smell              # float
+- self._loneliness         # float
+- self._energy             # float
+- self._edible_items       # list
+- self._drinkable_items    # list
+
+To fill in appropriate values for initialization:
+- The default values for **name, species, gender,** and **color** are **'Fluffy', 'Dog', 'Male',** and **'White'** respectively. Force the attribute values to be capitalized (use the **capitalize()** string method).
+- The initial value for **hunger, thirst, smell,** and **loneliness** are a random integer number in the range of [0, 5], while the initial value for **energy** is a random integer number in the range of [5, 10].
+- The initial value for **_edible_items**_ and **_drinkable_items**_ is an empty list. (We will append some items to these lists later on, so that **_edible_items**_ and **_drinkable_items**_ will be a list of different class types, and each class type is provided in the **edible.py** file. An example of a list of class types is given here: **a_list = [str, int, float]**)
